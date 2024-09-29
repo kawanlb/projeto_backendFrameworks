@@ -19,7 +19,7 @@ public class Pessoa {
     @GeneratedValue
     private UUID id;
 
-    private String name;
+    private String nome;
 
     private String email;
 
