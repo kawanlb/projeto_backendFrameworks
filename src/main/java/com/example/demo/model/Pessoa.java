@@ -10,9 +10,7 @@ import java.util.UUID;
 
 @Data
 @Entity
-@Table(name = "pessoa_tb")
-
-
+@Table(name = "tabela_pessoa")
 public class Pessoa {
 
     @Id
@@ -21,8 +19,7 @@ public class Pessoa {
 
     private String nome;
 
-    private String email;
+    private int idade;
 
-    private String telefone;
-
+    private String cpf;
 }
